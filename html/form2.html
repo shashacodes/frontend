@@ -11,54 +11,65 @@
   <body>
      <main>
       <form>
+        <fieldset>
         <h2>Personal</h2>
-      <label for="full name">full name</label> <br>
-           <input
-              type="text"
-              name="full name"
-              id="full name"
-              placeholder="john doe"/>
-             Date of birth <br>
-            <select name="day">
-              <option value="day">day</option>
-              <option value="1">1</option>
-              <option value="9">9</option>
-              <option value="5">5</option>
-            </select>
-    <select name="Month"> 
-             <option value="month">month</option>
-             <option value="jan">january</option>
-             <option value="feb">february</option>
-             <option value="dec">december</option>
-            </select>
-             <select name="Year">
-            <option value="year">year</option>
-            <option value="1998">1998</option>
-            <option value="1995">1995</option>
-            <option value="2000">2000</option>
-          </select> <br>
-            <label for="favorite">what's your favorite animal?</label><br>
-            <input type="button" value="lion"/>
-            <input type="button" value="tiger"/>
-            <input type="button" value="bear"/>
-            <input type="button" value="bull"/>
-            <input type="button" value="serval"/><br>
-
-        <h2>Account</h2<br>
-      
-            <label for="email">email address</label><br>
-            <input
-              type="email"
+        <label for="full name">full name</label> <br>
+        <input
+        type="text"
+        name="full name"
+        id="full name"
+        placeholder="john doe"/>
+        Date of birth <br>
+        <select name="day">
+          <option value="day">day</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <select name="Month"> 
+          <option value="month">month</option>
+          <option value="jan">january</option>
+          <option value="feb">february</option>
+          <option value="mar">march</option>
+          <option value="april">april</option>
+          <option value="may">may</option>
+          <option value="june">june</option>
+        </select>
+        <select name="Year">
+          <option value="year">year</option>
+          <option value="1994">1994</option>
+          <option value="1995">1995</option>
+          <option value="1996">1996</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+        </select> <br>
+        <label for="favorite">what's your favorite animal?</label><br>
+        <input type="button" value="lion"/>
+        <input type="button" value="tiger"/>
+        <input type="button" value="bear"/>
+        <input type="button" value="bull"/>
+        <input type="button" value="serval"/><br>
+        </fieldset>
+        <fieldset>
+        <h2>Account</h2>
+          <label for="email">email address</label><br>
+              <input
+             type="email"
               name="email"
               id="email"
               placeholder="johndoe@gmail.com"><br>
 
             <label for="pw">password</label><br>
-            <input type="password" name="password" id="pw" required><br>
+            <input type="password" name="password" id="pw"><br> 
           
             <label for="pw">verify password</label> <br>
             <input type="password" name="password" id="pw"/><br>
-
+        </fieldset>
+        <fieldset>
         <h2>Contact</h2>
             <label for="address">address</label><br>
             <input
@@ -74,14 +85,18 @@
               id="city"
               placeholder="20 montgomery rd,yaba."/><br>
 
-              <label for="state">state</label>
+              <label for="state">state</label> <br>
               <select name="state>
              <option value="month">month</option>
              <option value="adm">adamawa</option>
              <option value="lag">lagos</option>
              <option value="abj">abuja</option>
              <option value="akw">akwa ibom</option>
-            </select> <br>
+             <option value="an">anambra</option>
+             <option value="bor">borno</option>
+             <option value="ed">edo</option>
+             <option value="pl">plateau</option>
+        </select><br>
 
             <label for="tel">phone number</label><br>
             <input
@@ -89,6 +104,7 @@
               name="phone number"
               id="tel"
               placeholder="+234816503757"/> 
+        </fieldset>
         </ul>
       </form>
     </main>
