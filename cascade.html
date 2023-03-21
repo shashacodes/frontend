@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cascading and specificity</title>
+    <style>
+  section+aside{
+    font-size: 15px;
+  }
+  
+  section {
+    width: 65%;
+    height: 300px;
+  }
+  
+  aside>h2{
+    font-size:2rem;
+  }
+  
+  body>section>aside>h2~p{
+    border: 1em solid blue;
+  }
+aside{
+    background-color:cyan;
+}
+    </style>
+    </head>
+    <body>
+      <section> 
+        <aside>
+            <h2>Lorem ipsum.</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores natus
+                facere saepe itaque explicabo, rem accusantium perferendis reprehenderit, 
+                voluptas, nihil recusandae placeat delectus voluptatibus distinctio aut fugit 
+                quod optio accusamus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, eius.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempore iure eum animi! Suscipit, sunt.</p>
+            </aside>
+        </section>
+        <section>
+      <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+        </section>
+         </body>
+        </html>
+        
