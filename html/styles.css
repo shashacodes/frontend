@@ -1,0 +1,29 @@
+section {width: 50vw;
+height: 50vh;
+margin-bottom: 10em auto;
+border-bottom: 2px solid black;
+}
+.japan{ border-right: 1px solid black;
+    border-left: 1px solid black;
+    background: radial-gradient(red 25%, red 40%, white 40%, white 60%);
+}
+.germany{  border-right: 1px solid black;
+background: linear-gradient(180deg, black 33.3%, red 33.3%,red 66.6% ,#525232 66.6%);
+}
+.garbon{ border-top: 1px  solid black ;
+    background: linear-gradient( 180deg,#28a745 30%,  #ffc107 30%, #ffc107 60%, #17a2b8 90%);
+}
+.nigeria{ border-top: 1px  solid black;
+    background: linear-gradient(90deg, green 33%, white 33%, white 66%, green 66%);
+}
+.france{ border-left: 1px  solid #0a0a32;
+    background: linear-gradient(90deg, #0a0a32 30%,white 30%, white 60%, red 60%);
+}
+.gambia{
+    border-top: 1px solid black;
+    background: linear-gradient(180deg, red 33.3%,white 33.3%,white 36.3%, #14144c 36.3%, #14144c 66.6%,white 66.6%,white 69.6%, #0b280b 69.6%, #0b280b 90%);
+
+}
+.belgium{ border-left: 1px solid black;
+background: linear-gradient(90deg, #1f1919 33.3%, yellow 33.3%, yellow 66.6%, red 66.6%);
+}
