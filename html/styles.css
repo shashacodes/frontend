@@ -2,6 +2,7 @@ section {width: 50vw;
 height: 50vh;
 margin-bottom: 10em ;
 border-bottom: 2px solid black;
+background-size: 55px;
 }
 .japan{ border-right: 1px solid black;
     border-left: 1px solid black;
@@ -11,7 +12,7 @@ border-bottom: 2px solid black;
 background: linear-gradient(180deg, black 33.3%, red 33.3%,red 66.6% ,#525232 66.6%);
 }
 .garbon{ border-top: 1px  solid black ;
-    background: linear-gradient( 180deg,#28a745 30%,  #ffc107 30%, #ffc107 60%, #17a2b8 90%);
+    background: linear-gradient(180deg,#28a745 30%,  #ffc107 30%, #ffc107 60%, #17a2b8 60%);
 }
 .nigeria{ border-top: 1px  solid black;
     background: linear-gradient(90deg, green 33%, white 33%, white 66%, green 66%);

@@ -1,0 +1,17 @@
+li{list-style: none;
+    width: 30%;
+    border: dashed;
+    margin-bottom: 25px;
+    padding: 50px;
+    min-height: 25vh;
+   background-color:gold; 
+}
+li:hover{background-color: aliceblue;}
+.mylink{
+    text-decoration: none;
+}
+.mylink:hover{
+    text-decoration: underline;
+}
+body{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHa3cuvjmmScBaGJ9Gcjwvwu6Qynvmh1q-A&usqp=CAU);}
+
