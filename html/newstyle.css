@@ -1,19 +1,22 @@
 li{list-style: none;
-    width: 30%;
-    border: dashed;
+    width: 30em;
+    border: 2em dashed;
     margin-bottom: 25px;
-    padding: 50px;
+    padding:2.5rem;
     min-height: 25vh;
-   background-color:gold; 
-
+   background: linear-gradient(60deg, cyan, white,gold);
+   border-bottom: 2px solid black;
 }
-li:hover{background-color: aliceblue;}
+li:hover{background-color: aliceblue;
+        border-bottom: 2px solid black;
+}
 .mylink{
     text-decoration: none;
 }
 .mylink:hover{
     text-decoration: underline;
 }
-body{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHa3cuvjmmScBaGJ9Gcjwvwu6Qynvmh1q-A&usqp=CAU);}
+body{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8YelnfG9fJRjjRi8dmAZ7qAnSALS_FMZWLQ&usqp=CAU);
+}
 
-main {margin:auto;}
+main{margin: 0 auto;}
