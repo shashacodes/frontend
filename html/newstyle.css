@@ -6,9 +6,11 @@ li{list-style: none;
     min-height: 25vh;
    background: linear-gradient(60deg, cyan, white,gold);
    border-bottom: 2px solid black;
+
 }
 li:hover{background-color: aliceblue;
         border-bottom: 2px solid black;
+        text-decoration: underline;
 }
 .mylink{
     text-decoration: none;
