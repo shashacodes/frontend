@@ -8,17 +8,25 @@ li{list-style: none;
    border-bottom: 2px solid black;
 
 }
-li:hover{background-color: aliceblue;
-        border-bottom: 2px solid black;
-        text-decoration: underline;
-}
-.mylink{
-    text-decoration: none;
-}
-.mylink:hover{
+li:hover{
+    background: aliceblue;
+    border-bottom: 2px solid black;
     text-decoration: underline;
+
 }
-body{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8YelnfG9fJRjjRi8dmAZ7qAnSALS_FMZWLQ&usqp=CAU);
+ul{
+    list-style-type: none;
+}
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8YelnfG9fJRjjRi8dmAZ7qAnSALS_FMZWLQ&usqp=CAU);
+    background-color: aqua;
+    background-attachment: fixed;
 }
 
-main{margin: 0 auto;}
+main{margin: 0 auto;
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+}
