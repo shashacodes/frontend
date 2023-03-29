@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+            background-color: brown;
+            display: flex;
+            justify-content: space-around;
+            height: 150px;
+            align-items: center;
+        }
+        li:nth-of-type( even){
+         color: blue;
+         align-self: flex-end;
+       }
+    ul :nth-child(2n+1) {
+        color: khaki;
+        align-self:flex-start ;
+    }
+     
+       
+    li{
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        color: whitesmoke;
+        margin-bottom: 20px;
+        /* padding: 2em 0; */
+  }
+  li:hover{background-color: blueviolet;}
+  main{
+    display: flex;
+  }
+  h2, p{
+    background-color:brown;
+  }
+  main{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: 100px 100px 100px 200px 200px;
+    gap: 20px 10px;
+    grid-template-areas: "a a b"
+                        "a a b"
+                        "a a b"
+                        "c d e"
+                        "f f f";
+  }
+section, aside, footer{
+    background-color: blue;
+}
+section:nth-of-type(1){
+    grid-area: a;
+}
+section:nth-last-of-type(2){
+    grid-area: c;
+}
+section:nth-of-type(3){
+    grid-area: d;
+}
+section:nth-of-type(4){
+     grid-area: e;
+}
+
+aside{
+    grid-area: b;
+}
+footer{
+    grid-area: f;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home 1</li>
+                <li>home 2</li>
+                <li>home 3</li>
+                <li>home 4</li>
+                <li>home 5</li>
+                <li>home 6</li>
+                <li>home 7</li>
+                <li>home 8</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <section>dghgfds</section>
+       <section>dghgfds</section>
+       <section>dghgfds</section>
+       <section>dghgfds</section>
+       <aside>
+        <article>dghgfds</article>
+        <article>dghgfds</article>
+        <article>dghgfds</article>
+       </aside>
+       <footer></footer>
+    </main>
+</body>
+</html>
