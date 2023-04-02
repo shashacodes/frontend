@@ -1,9 +1,10 @@
-header ul{
+ nav ul{
     list-style-type: none;
     display: flex;
     padding: 10px;
     justify-content: flex-end;
     gap: 20px;
+    border: dashed;
     height: 60px;
     color:white;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSBjWFOHdNcAl7LbYbWKfhUjZxNnEaEBrAQ&usqp=CAU);
@@ -11,16 +12,16 @@ header ul{
     background-size:cover;
     
 }
-header ul li:nth-child(1){
+nav ul li:nth-child(1){
     background-color: gold;
 }
-header h1:first-line{
+nav h1:first-line{
     font-size: large;
 }
 .thirdline{
     font-size:large;
 }
-header button{
+nav button{
     background-color: gold;
 }
 header{
@@ -118,3 +119,5 @@ aside{
     background-color:thistle;
     border: double;
   }
+
+    
