@@ -12,6 +12,9 @@
     background-size:cover;
     
 }
+nav img{
+    width: 50px;
+}
 nav ul li:nth-child(1){
     background-color: gold;
 }
@@ -29,7 +32,7 @@ header{
     background-size: cover;
      background-color:cyan;
     height: 250px;
-    border: dashed;
+    border:dashed;
 }
 div:first-of-type{
     text-align: center;
@@ -117,7 +120,7 @@ aside{
   }
   body{
     background-color:thistle;
-    border: double;
+    border: dashed;
   }
 
     
