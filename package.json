@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "author": "",
+  "author": "Sharon",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.1"

@@ -1,11 +1,11 @@
 div{
     display: flex;
-    background-color: cyan;
     height: 100vh;
     justify-content: center;
     align-items: center;
     font-size: 3em;
     text-align: center;
+    background-image: url(https://cdn.wallpapersafari.com/45/82/p4jdIy.gif);
 
 }
 h3{
@@ -23,4 +23,7 @@ h3:hover{
     cursor: pointer;
     /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIykXNB-gKctSSJ6bxdWu41BMkPbQCnRZCHg&usqp=CAU); */
     -webkit-background-clip: text;
+}
+a{
+    text-decoration: none;
 }

@@ -1,441 +1,439 @@
 @media screen and(max-width:480px){
-    nav{
-        flex-direction: row;
-        align-items: center;
-        padding: 5px 10px ;
-        justify-content: space-between;
-        background-size: cover;
-        height: 200px;
-        background-image: url(./media/girlie-removebg-preview.png);
-        background-repeat: no-repeat;
+    :root{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        background-color: #070505;
+        color: white;
+        border-radius: 50%;
+        font-size: large;
     }
     nav ul{
         list-style-type: none;
         display: flex;
-        margin-top: 0;
-        justify-content: space-around;
-    } 
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: auto; 
+        flex-direction: column;
+        font-size:medium;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
     li:hover{
-    background-color:cyan ;
+        color:#f4f ;
+        transform: scale(1.5);
     }
     
-    :root{
-        margin: 0;
-        padding: 0;
-        --bg-color: black;
-        --text-color: #f02c2c;
-        --color-w:grey;
+    nav{
+        background-image: url(./media/girlie-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        font-size: large;
+        cursor: pointer;
+        height: auto;
     }
-     .profile{
-         flex: auto;
-         margin-left: 10px;
+    .profile:first-line{
+       font-size: large;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    em{
+        font-size:large ;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+     main{
+         flex-wrap: wrap;
+         cursor: pointer;
      }
+     .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        
+    }
+      .stars{
+         display:flex;
+         justify-content: space-around;
+         align-items: center;
+         font-size: x-large;
+         width: 80%;
+         margin: left 0;
+         gap: 50px;
+      }
+      
+      article{
+        display: inline-block;
+        list-style-type: none;
+        font-size: small;
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUvCq1uzX72Mmf2UjjruwKzbNyRfHgmTfFw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:green;
+        box-shadow: 10px 10px 50px inset;
+        border-radius: 50px; 
+        border: 30px solid black ;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height:200px;
+        padding: 50px;
+        width: 80%;
+        margin: 20px auto;
     
-    
-    .article {
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: repeat(3, auto); 
-        gap: 20px;
-        justify-content: space-around;
-        margin-bottom: 20px; 
     }
     
     .bi{
-       color: orange;
+        color: orange;
     }
     .bi:hover{
-        background-color: red;
+        color: #f4f;
     }
-    section {
-        display:inline-block;
-        align-items: center;
-        justify-content: space-evenly;
-        background-color:var(--color-w) ;
-        border-radius: 1px;
-        background-color: black;
-        padding-right: 50px;
-    }
-    
-    .content {
-        display: flex;
-        align-items: center;
+      .btn{
+        background-color: orange;
+        border-radius: 10px;
       }
-    
-      .img{
-        flex: 1 1 auto;
-        margin-right: 20px;
+      .btn:hover{
+        color: #f4f;
+        transform: translate(20px,10px);
       }
-    
-     .img{
-        background-image: url(./media/girlie-removebg-preview.png);
-        background-repeat: no-repeat;
-        border: 2px solid var(--bg-color);
-        height: 200px;
+      article:hover{
+        color:#557;
+      }
+     a{
+        text-decoration: none;
+     }
+     a:hover{
+        text-decoration: underline;
+     }
+}
+@media screen and(min-width:481px){
+    :root{
+        margin: 0;
+        padding: 0;
     }
     body{
         margin: 0;
-        background-color:black;
+        background-color: #070505;
         color: white;
-        border-radius: 25px;
-        cursor: pointer;
-    }
-    .services p{
-        font-size: medium;
-    }
-    
-    .btn{
-        background-color: gold;
-    }
-    .btn:hover{
-         background-color:cyan;
-         transition: all 1s ease-in-out;
-    }
-      .class1{
-        flex-wrap: wrap;
-    }
-      
-      .fractions {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); 
-        gap: 10px;
-      }
-      
-      article {
-        background: linear-gradient(red,white,gold);
-        padding: 20px;
-        border: 5px solid black;
-        text-align: center;
-        border-radius: 20px;
-      }
-       
-}
-@media screen and (min-width:481px) {
-    nav{
-        flex-direction: row;
-        align-items: center;
-        padding: 5px 10px ;
-        justify-content: space-between;
-        background-size: cover;
-        height: 200px;
-        background-image: url(./media/girlie-removebg-preview.png);
-        background-repeat: no-repeat;
+        border-radius: 50%;
+        font-size: large;
     }
     nav ul{
         list-style-type: none;
         display: flex;
-        margin-top: 0;
-        justify-content: space-around;
-    } 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: auto;   
+        font-size:medium;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
     li:hover{
-    background-color:cyan ;
+        color:#f4f ;
+        transform: scale(1.5);
     }
     
-    :root{
-        margin: 0;
-        padding: 0;
-        --bg-color: black;
-        --text-color: #f02c2c;
-        --color-w:grey;
+    nav{
+        background-image: url(./media/girlie-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-size: large;
+        cursor: pointer;
+        height: 25vh;
     }
-     .profile{
-         flex: auto;
-         margin-left: 10px;
+    .profile:first-line{
+       font-size: large;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    em{
+        font-size:large ;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+     main{
+         flex-wrap: wrap;
+         cursor: pointer;
      }
+     .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        
+    }
+      .stars{
+         display:flex;
+         justify-content: space-around;
+         align-items: center;
+         font-size: x-large;
+         width: 80%;
+         margin-left: 0;
+         gap: 50px;
+      }
+      
+      article{
+        display: inline-block;
+        list-style-type: none;
+        font-size: small;
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUvCq1uzX72Mmf2UjjruwKzbNyRfHgmTfFw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:green;
+        box-shadow: 10px 10px 50px inset;
+        border-radius: 50px; 
+        border: 30px solid black ;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height:200px;
+        padding: 70px;
+        width: 80%;
+        margin: 20px auto;
     
-    
-    .article {
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: repeat(3, auto); 
-        gap: 20px;
-        justify-content: space-around;
-        margin-bottom: 20px; 
     }
     
     .bi{
-       color: orange;
+        color: orange;
     }
     .bi:hover{
-        background-color: red;
+        color: #f4f;
     }
-    section {
-        display:inline-block;
-        align-items: center;
-        justify-content: space-evenly;
-        background-color:var(--color-w) ;
-        border-radius: 1px;
-        background-color: black;
-        padding-right: 50px;
-    }
-    
-    .content {
-        display: flex;
-        align-items: center;
+      .btn{
+        background-color: orange;
+        border-radius: 10px;
       }
-    
-      .img{
-        flex: 1 1 auto;
-        margin-right: 20px;
+      .btn:hover{
+        color: #f4f;
+        transform: translate(20px,10px);
       }
-    
-     .img{
-        background-image: url(./media/girlie-removebg-preview.png);
-        background-repeat: no-repeat;
-        border: 2px solid var(--bg-color);
-        height: 200px;
+      article:hover{
+        color:#557;
+      }
+     a{
+        text-decoration: none;
+     }
+     a:hover{
+        text-decoration: underline;
+     }
+}
+@media screen and(min-width:768px){
+    :root{
+        margin: 0;
+        padding: 0;
     }
     body{
         margin: 0;
-        background-color:black;
+        background-color: #070505;
         color: white;
-        border-radius: 25px;
-        cursor: pointer;
-    }
-    .services p{
-        font-size: medium;
-    }
-    
-    .btn{
-        background-color: gold;
-    }
-    .btn:hover{
-         background-color:cyan;
-    }
-      .class1{
-        flex-wrap: wrap;
-    }
-      
-      .fractions {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); 
-        gap: 10px;
-      }
-      
-      article {
-        background: linear-gradient(red,white,gold);
-        padding: 20px;
-        border: 5px solid black;
-        text-align: center;
-        border-radius: 20px;
-      }
-       
-}
-@media screen and(min_width:768px){
-    nav{
-        flex-direction: row;
-        align-items: center;
-        padding: 5px 10px ;
-        justify-content: space-between;
-        background-size: cover;
-        height: 200px;
-        background-image: url(./media/girlie-removebg-preview.png);
-        background-repeat: no-repeat;
+        border-radius: 50%;
+        font-size: large;
     }
     nav ul{
         list-style-type: none;
         display: flex;
-        margin-top: 0;
-        justify-content: space-around;
-    } 
-    li:hover{
-    background-color:cyan ;
-    }
-    
-    :root{
-        margin: 0;
-        padding: 0;
-        --bg-color: black;
-        --text-color: #f02c2c;
-        --color-w:grey;
-    }
-     .profile{
-         flex: auto;
-         margin-left: 10px;
-     }
-    
-    
-    .article {
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: repeat(3, auto); 
+        align-items: center;
+        justify-content: center;
         gap: 20px;
-        justify-content: space-around;
-        margin-bottom: 20px; 
+        height: 30vh;   
+        font-size:x-large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+    li:hover{
+        color:#f4f ;
+        transform: scale(1.5);
+    }
+    
+    nav{
+        background-image: url(./media/girlie-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-size: large;
+        cursor: pointer;
+    }
+    .profile:first-line{
+       font-size: large;
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    em{
+        font-size:large ;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+     main{
+         flex-wrap: wrap;
+         cursor: pointer;
+     }
+     .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        
+    }
+      .stars{
+         display:flex;
+         justify-content: space-around;
+         align-items: center;
+         font-size: x-large;
+         width: 80%;
+         margin-left: 0;
+         gap: 50px;
+      }
+      
+      article{
+        display: inline-block;
+        list-style-type: none;
+        font-size: x-large;
+        background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUvCq1uzX72Mmf2UjjruwKzbNyRfHgmTfFw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:green;
+        box-shadow: 10px 10px 50px inset;
+        border-radius: 50px; 
+        border: 30px solid black ;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height:250px;
+        padding: 100px;
+        width: 30%;
+        margin: 20px;
     }
     
     .bi{
-       color: orange;
+        color: orange;
     }
     .bi:hover{
-        background-color: red;
+        color: #f4f;
     }
-    section {
-        display:inline-block;
-        align-items: center;
-        justify-content: space-evenly;
-        background-color:var(--color-w) ;
-        border-radius: 1px;
-        background-color: black;
-        padding-right: 50px;
-    }
-    
-    .content {
-        display: flex;
-        align-items: center;
+      .btn{
+        background-color: orange;
+        border-radius: 10px;
       }
-    
-      .img{
-        flex: 1 1 auto;
-        margin-right: 20px;
+      .btn:hover{
+        color: #f4f;
+        transform: translate(20px,10px);
       }
-    
-     .img{
-        background-image: url(./media/girlie-removebg-preview.png);
-        background-repeat: no-repeat;
-        border: 2px solid var(--bg-color);
-        height: 200px;
-    }
-    body{
-        margin: 0;
-        background-color:black;
-        color: white;
-        border-radius: 25px;
-        cursor: pointer;
-    }
-    .services p{
-        font-size: medium;
-    }
-    
-    .btn{
-        background-color: gold;
-    }
-    .btn:hover{
-         background-color:cyan;
-    }
-      .class1{
-        flex-wrap: wrap;
-    }
-      
-      .fractions {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); 
-        gap: 10px;
+      article:hover{
+        color:#557;
       }
-      
-      article {
-        background: linear-gradient(red,white,gold);
-        padding: 20px;
-        border: 5px solid black;
-        text-align: center;
-        border-radius: 20px;
-      }
-       
+     a{
+        text-decoration: none;
+     }
+     a:hover{
+        text-decoration: underline;
+     }
 }
-nav{
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 10px ;
-    justify-content: space-between;
-    background-size: cover;
-    height: 200px;
-    background-image: url(./media/girlie-removebg-preview.png);
-    background-repeat: no-repeat;
+:root{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #070505;
+    color: white;
+    border-radius: 50%;
+    font-size: large;
 }
 nav ul{
     list-style-type: none;
     display: flex;
-    margin-top: 0;
-    justify-content: space-around;
-} 
-li:hover{
-background-color:cyan ;
-transition: all 1.5s ease-in-out;
-}
-
-:root{
-    margin: 0;
-    padding: 0;
-    --bg-color: black;
-    --text-color: #f02c2c;
-    --color-w:grey;
-}
- .profile{
-     flex: auto;
-     margin-left: 10px;
- }
-
-
-.article {
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(3, auto); 
+    align-items: center;
+    justify-content: center;
     gap: 20px;
-    justify-content: space-around;
-    margin-bottom: 20px; 
+    height: 30vh;   
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+li:hover{
+    color:#f4f ;
+    transform: scale(1.5);
+}
+
+nav{
+    background-image: url(./media/girlie-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    font-size: large;
+    cursor: pointer;
+}
+.profile:first-line{
+   font-size: large;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+em{
+    font-size:large ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ main{
+     flex-wrap: wrap;
+     cursor: pointer;
+ }
+ .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    
+}
+  .stars{
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     font-size: x-large;
+     width: 120vh;
+     margin-left: 250px;
+     gap: 50px;
+  }
+  
+  article{
+    display: inline-block;
+    list-style-type: none;
+    font-size: x-large;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUvCq1uzX72Mmf2UjjruwKzbNyRfHgmTfFw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:green;
+    box-shadow: 10px 10px 50px inset;
+    border-radius: 50px; 
+    border: 30px solid black ;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height:180px;
+    padding: 70px;
+
 }
 
 .bi{
-   color: orange;
+    color: orange;
 }
 .bi:hover{
-    background-color: red;
+    color: #f4f;
 }
-section {
-    display:inline-block;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color:var(--color-w) ;
-    border-radius: 1px;
-    background-color: black;
-    padding-right: 50px;
-}
-
-.content {
-    display: flex;
-    align-items: center;
+  .btn{
+    background-color: orange;
+    border-radius: 10px;
   }
-
-  .img{
-    flex: 1 1 auto;
-    margin-right: 20px;
+  .btn:hover{
+    color: #f4f;
+    transform: translate(20px,10px);
   }
-
- .img{
-    background-image: url(./media/girlie-removebg-preview.png);
-    background-repeat: no-repeat;
-    border: 2px solid var(--bg-color);
-    height: 200px;
-}
-body{
-    margin: 0;
-    background-color:black;
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-}
-.services p{
-    font-size: medium;
-}
-
-.btn{
-    background-color: gold;
-}
-.btn:hover{
-     background-color:cyan;
-     transition: all 1s ease-in-out;
-}
-  .class1{
-    flex-wrap: wrap;
-}
-  
-  .fractions {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    gap: 10px;
+  article:hover{
+    color:#557;
   }
-  
-  article {
-    background: linear-gradient(red,white,gold);
-    padding: 20px;
-    border: 5px solid black;
-    text-align: center;
-    border-radius: 20px;
-  }
-   
+ a{
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: underline;
+ }
