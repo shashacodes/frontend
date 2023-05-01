@@ -1,4 +1,187 @@
+@media  screen and (max-width: 480px) {
+    body {
+      font-size: small;
+    }
+    nav ul {
+      height: auto;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .content {
+      height: auto;
+      margin-top: 20px;
+    }
+    .stars {
+      flex-direction: column;
+      align-items: flex-start;
+      width: auto;
+      margin-left: 0;
+      margin-top: 20px;
+      gap: 20px;
+    }
+    article {
+      height: 120px;
+      padding: 30px;
+      font-size: medium;
+    }
+    .one, .two, .three {
+      height: 120px;
+      padding: 30px;
+      margin-bottom: 20px;
+      font-size: medium;
+    }
+  }
+@media screen and (min-width: 481px) {
+		:root {
+			margin: 0;
+			padding: 0;
+		}
 
+		body {
+			margin: 0;
+			background-color: grey;
+			color: white;
+			border-radius: 50%;
+			font-size: large;
+			cursor: pointer;
+		}
+
+		nav ul {
+			list-style-type: none;
+			display: flex;
+			justify-content: center;
+			gap: 30px;
+			height: 30vh;   
+			font-size:x-large;
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+			padding: 30px;
+		}
+		
+		li:hover{
+			color:#f4f ;
+			transform: scale(1.5);
+		}
+
+		nav {
+			display: flex;
+			background-image: url(./media/girlie-removebg-preview.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: right;
+			font-size: large;
+			cursor: pointer;
+			font-size: xx-large;
+			padding: 30px;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 30px;
+		}
+
+		.profile {
+			font-size: xx-large;
+			border-radius: 30px;
+			height: auto;
+			color: whitesmoke;
+			border: 10px solid ;
+			box-shadow: 10px 10px 10px  inset;
+			margin-bottom: 30px;
+			padding: 10px;
+			gap: 10px;
+		}
+
+		.profile:first-line {
+			font-size: large;
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		}
+
+		.class1 {
+			border-radius: 30px;
+			height: auto;
+			color: whitesmoke;
+			border: 10px solid ;
+			box-shadow: 10px 10px 10px  inset;
+			margin-bottom: 30px;
+		}
+
+		em {
+			font-size:large ;
+			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		}
+
+		main {
+			flex-wrap: wrap;
+			cursor: pointer;
+			font-size: x-large;
+		}
+
+		.content {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 70vh;
+		}
+
+		.stars {
+			display:flex;
+			justify-content: space-around;
+			align-items: center;
+			font-size: x-large;
+			width: 120vh;
+			margin-left:250px;
+			gap: 50px;
+		}
+
+		article {
+			display: inline-block;
+			list-style-type: none;
+			font-size: x-large;
+			background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUvCq1uzX72Mmf2UjjruwKzbNyRfHgmTfFw&usqp=CAU);
+			background-repeat: no-repeat;
+			background-size: cover;
+			color:green;
+			border-radius: 50px; 
+			border:
+        }
+    }
+@media screen and (min-width: 760px) {
+        /* CSS rules for screens with a minimum width of 760px */
+        body {
+          font-size: larger;
+        }
+        nav ul {
+          height: auto;
+          flex-direction: row;
+          justify-content: flex-end;
+          padding: 0;
+        }
+        nav {
+          padding: 20px;
+          flex-direction:row;
+        }
+        .profile {
+          font-size: larger;
+          margin-bottom: 20px;
+        }
+        .profile:first-line {
+          font-size: normal;
+        }
+        .stars {
+          font-size: larger;
+          width: auto;
+          margin: 0;
+        }
+        article {
+          height: auto;
+          padding: 30px;
+          font-size: larger;
+          border-width: 20px;
+        }
+        .one,
+        .two,
+        .three {
+          margin-bottom: 20px;
+        }
+      }
 :root{
     margin: 0;
     padding: 0;
