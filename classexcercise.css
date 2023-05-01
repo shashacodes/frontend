@@ -24,6 +24,21 @@ h3:hover{
     /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIykXNB-gKctSSJ6bxdWu41BMkPbQCnRZCHg&usqp=CAU); */
     -webkit-background-clip: text;
 }
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+p:hover{
+    color:transparent;
+    height: 30vh;
+    background: linear-gradient(red,white,gold);
+    background-size: cover;
+    cursor: pointer;
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIykXNB-gKctSSJ6bxdWu41BMkPbQCnRZCHg&usqp=CAU); */
+    -webkit-background-clip: text;
+}
 a{
     text-decoration: none;
 }
