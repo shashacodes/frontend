@@ -7,7 +7,7 @@
         align-items:center;
         justify-content: space-around;
         padding:10px;
-        border: dashed;
+        border: double;
 }
 nav ul li:nth-of-type(n+1){
     align-self:flex-start;
@@ -15,11 +15,14 @@ nav ul li:nth-of-type(n+1){
 }
 nav ul li:nth-of-type(n+3){
     align-self: center;
-    color: blue;
+    color: crimson;
 }
 nav ul li:nth-of-type(n+6){
     align-self: flex-end;
     color: brown;
+}
+body{
+    background-color: black;
 }
 main{
     display: grid;
@@ -34,7 +37,7 @@ main{
 } 
 
 main > *{
-    background-color: goldenrod;
+    background-color: grey;
 }
 
 main > :nth-child(1){
@@ -116,7 +119,7 @@ article{
 
 
 footer {
-    background-color: deepskyblue;
+    background-color: gold;
 
 
 }

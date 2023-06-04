@@ -8,7 +8,7 @@
     <style>
  nav ul{
         list-style: none;
-        background-color: blue;
+        background-color: gray;
         display: flex;
         justify-content:space-around;
         height: 50px;
@@ -28,7 +28,7 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 100px 100px 200px 200px 150px;
-    gap: 10px;
+    gap: 5px;
     grid-template-areas:"a a a b"
                         "a a a b"
                         "c c c d"
@@ -54,30 +54,30 @@ main > :nth-child(5){
 }
 
  main > *{
-    background-color: aquamarine;
+    background-color: rgb(80, 75, 75);
  }
 div{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(2, 200px);
-    gap: 10px;
+    gap: 5px;
 }
 
 div section:first-of-type{
 display:grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(1,200px);
-gap:10px;
+gap:5px;
 }
 
 div section:last-of-type{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: repeat(1,200px);
-gap:10px;
+gap:5px;
 }
 section > *{
-    background-color: brown;
+    background-color: rgb(154, 146, 146);
 }
 aside:first-of-type{
     display: grid;
@@ -85,7 +85,12 @@ aside:first-of-type{
     grid-template-rows:repeat(2, 100px);
 }
 aside > *{
-    background-color:red;
+    background-color:rgb(107, 104, 104);
+}
+body{
+    background-color: black;
+    font-size: x-large;
+    
 }
 
     </style>
